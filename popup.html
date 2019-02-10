@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+</head>
+<style>
+  h5 {
+    text-align: center;
+    margin: 0px;
+  }
+  body {
+    min-width: 250px;
+    max-width: 100%;
+    vertical-align: middle;
+    position: relative;
+    background-color:lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .source > li {
+    visibility: visible
+  }
+
+  .source {
+    visibility: hidden;
+  }
+
+  ul {
+    color: blue;
+    font-style: italic;
+    font-weight: lighter;
+    padding-inline-start: 20px;
+    padding-inline-end: 15px;
+    margin-block-start: 7px;
+  }
+  .notes {
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  button {
+    outline: none;
+    cursor: pointer;
+    margin: 7px
+  }
+</style>
+<body>
+  <h5>⌘CVS</h5>
+  <div id="data"></div>
+  <!-- <button id="save">Save!</button> -->
+  <button id="sourceBtn">source</button>
+  <button id="clear">&times;</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
