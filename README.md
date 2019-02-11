@@ -5,4 +5,4 @@
 2. Right-click to highlight the text and for context menu
 3. Click "C+V+S" to copy, paste and save.
 To view, click on the extension 
-Furthermore, Click !!source to see the source of the copied text and !source to see just the text.
+4. Furthermore, Click !!source to see the source of the copied text and !source to see just the text.
